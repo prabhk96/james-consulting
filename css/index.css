@@ -8,22 +8,23 @@
     background:#0C3C60;
     display: flex;
     justify-content: space-between;
+    color: #D8F3D6;
 }
 .leftbox{
     height: 80px;
     width: 200px;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: larger;
-    font-style:normal;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Arial Narrow', Arial, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Arial Narrow', Arial, sans-serif;
 }
 .rightbox{
     height: 80px;
     width: 800px;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     display: flex;
     align-items: center;
     
@@ -33,5 +34,55 @@
    display: flex;
    justify-content: space-evenly;
    width: 800px;
- 
 }
+.rightbox a{
+    color:#D8F3D6;
+    text-decoration: none;
+    
+}
+.rightbox a:hover{
+    color: #84beed;
+}
+.main{
+    height:682px ;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background: url("../images/bg.jpg");
+}
+.smallbox {
+    height:300px;
+    width: 780px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #0C3C60;
+    
+    }
+    .main img {
+        height: 682px;
+        width:100%;
+    }
+    .smallbox h2 {
+        font-size: 26px;
+        
+    
+    }
+    .smallbox h1 {
+        font-size: 60px;
+    }
+    .smallbox button {
+    padding: 22px 56px;
+    font-size: 16px;
+    border: 1px solid #0C3C60;
+    color: #0C3C60;
+font-weight: bold;    
+    }
+    .smallbox button:hover {
+      background: #0C3C60;
+      color: #fafbfa;  
+    }
+
