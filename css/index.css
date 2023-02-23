@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.outerbox{
+    height: 80px;
+    width: 100%;
+    background:#0C3C60;
+    display: flex;
+    justify-content: space-between;
+}
+.leftbox{
+    height: 80px;
+    width: 200px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-style:normal;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.rightbox{
+    height: 80px;
+    width: 800px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    
+}
+.rightbox ul{
+    list-style: none;
+   display: flex;
+   justify-content: space-evenly;
+   width: 800px;
+ 
+}
