@@ -215,7 +215,7 @@
 
 }
 .s1 {
-    background-color: #fafbfa;
+    background-color: #ffffff;
     width: 100%;
     height: 35%;
     display: flex;
@@ -257,7 +257,5 @@ filter: invert();
     margin: auto;
     margin-bottom: 50px;
     font-weight: 100 ;
-    
-
 }
 
